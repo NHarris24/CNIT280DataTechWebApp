@@ -1,10 +1,9 @@
 
 
-h1 {
+h1, h2, h3 {
   text-align: center;
 }
 
-h3 {text-align: center;}
 
 ul {
   list-style-type: none;
@@ -49,7 +48,6 @@ p {
 }
 
 .Data {
-
   color: #4CAF50;
 }
 .Tech{
@@ -74,5 +72,14 @@ li.Returns{
 ul.Returns:last-child{
   float:left;
 
+}
 
+input {
+  text-align: center;
+}
+button {
+
+  border: 20px;
+  padding: 20px
+  margin: 30px;
 }
