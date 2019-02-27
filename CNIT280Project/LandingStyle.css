@@ -1,8 +1,11 @@
 #grad1 {
-  height: 900px;
+  height: 1100px;
+  margin: 0;
   background-image: linear-gradient(white, #333);
 }
-
+html, body {
+  margin: 0;
+}
 h1 {
   text-align: center;
 }
