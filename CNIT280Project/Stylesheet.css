@@ -1,5 +1,11 @@
-
-
+body{
+  margin: 0px;
+}
+.grad1 {
+  height: 1100px;
+  margin: 0;
+  background-image: linear-gradient(white, #333);
+}
 h1, h2, h3 {
   text-align: center;
 }
@@ -79,7 +85,7 @@ input {
 }
 button.Return {
   border: 20px;
-  padding: 20px
+  padding: 20px;
   margin: 30px;
 }
 .paybutton {
@@ -97,8 +103,46 @@ button.Return {
 }
 
 .PayReturn{
+  margin-left: 2px;
+  margin-bottom: 50px;
   padding: 14px;
   text-decoration: none;
   background-color: #333;
   color: white;
+}
+.ReturnButton{
+  margin-top: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  margin-left: 0px;
+}
+
+.footer{
+   position: fixed;
+   padding-top: 15px;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #333;
+   color: white;
+   text-align: center;
+}
+p.foot{
+  text-align: center;
+}
+
+.PaymentTable{
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #dddddd
+}
+.PaymentTable tr{
+  text-align: left;
+}
+.PaymentTable td,th{
+  border: 1px solid #dddddd;
+  padding: 8px
+}
+.PaymentTable tr:nth-child(even){
+  background-color: lightgrey;
 }

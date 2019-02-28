@@ -1,6 +1,5 @@
-html, body{
-  height: 100%
-  margin: 0;
+body{
+  margin: 0px;
 }
 h1 {
   text-align: center;
@@ -35,17 +34,6 @@ li a:hover {
 }
 
 
-.wrapper{
-  min-height: 100%;
-  margin-bottom: -50px;
-}
-
-.footer,
-.push{
-  height: 50px;
-  text-align: center;
-}
-
 .Data {
 
   color: #4CAF50;
@@ -64,4 +52,12 @@ li a:hover {
 }
 .button>a:hover{
   background-color: #40B512;
+}
+
+.footer{
+  position: relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
 }
