@@ -82,3 +82,23 @@ button.Return {
   padding: 20px
   margin: 30px;
 }
+.paybutton {
+  padding: 14px;
+  margin: 0;
+  text-decoration: none;
+  text-align: center;
+  background-color: #333;
+  color: white;
+}
+.payhistory{
+  text-align: left;
+  padding-left: 32px;
+  margin-top: 40px;
+}
+
+.PayReturn{
+  padding: 14px;
+  text-decoration: none;
+  background-color: #333;
+  color: white;
+}
