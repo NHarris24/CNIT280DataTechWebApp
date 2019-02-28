@@ -6,12 +6,12 @@ body{
   margin: 0;
   background-image: linear-gradient(white, #333);
 }
-h1, h2, h3 {
+h1, h2, h3, h5{
   text-align: center;
 }
 
 
-ul {
+ul.Nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -20,11 +20,11 @@ ul {
   background-color: #333;
 }
 
-li {
+ul.Nav li {
   float: left;
 }
 
-li a {
+ul.Nav li a {
   display: inline-block;
   color: white;
   text-align: center;
@@ -34,10 +34,10 @@ li a {
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+ul.Nav li a:hover {
   background-color: #111;
 }
-li:last-child{
+ul.Nav li:last-child{
   float:right;
   border-left: solid#999;
 }
@@ -79,7 +79,12 @@ ul.Returns:last-child{
   float:left;
 
 }
-
+.PayReturn:hover{
+  background-color: #40B512;
+}
+.paybutton:hover{
+  background-color: #40b512;
+}
 input {
   text-align: center;
 }
@@ -145,4 +150,38 @@ p.foot{
 }
 .PaymentTable tr:nth-child(even){
   background-color: lightgrey;
+}
+
+ul.ReceiptList{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 40px;
+  overflow: hidden;
+  background-color: #5e5e5e;
+}
+ul.ReceiptList li a{
+
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+ul.ReceiptList li a:hover{
+  background-color: grey;
+}
+.InputNameDiv{
+  text-align: center;
+  margin-bottom: 18px;
+}
+.SelectDiv{
+  text-align: center;
+  margin: 5px;
+}
+.ConsolidateButton{
+  text-align: center;
+  margin-top: 15px;
 }
