@@ -6,7 +6,7 @@ body{
   margin: 0;
   background-image: linear-gradient(white, #333);
 }
-h1, h2, h3, h5{
+h1, h2, h3, h5, h6{
   text-align: center;
 }
 
@@ -184,4 +184,12 @@ ul.ReceiptList li a:hover{
 .ConsolidateButton{
   text-align: center;
   margin-top: 15px;
+}
+.GenerateReportButton{
+  background-color: #333;
+  color: white;
+  padding: 5px;
+}
+.invoiceTables{
+  margin-top: 40px;
 }
