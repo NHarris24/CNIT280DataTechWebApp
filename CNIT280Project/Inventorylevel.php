@@ -14,9 +14,9 @@
     <th>Stock Level</th>
   </tr>
 
-    <?php
+<?php
 
-    $conn = mysqli_connect("localhost:33060", "root", ,"datatech")
+    $conn = mysqli_connect("localhost", "root","","datatech")
     if ($conn-> connect_error) {
       die("connection failed:". $conn-> connect_error);
     }
@@ -33,7 +33,7 @@
       echo "0 result";
     }
 
-    $conn-> close(); 
+    $conn-> close();
      ?>
 </table>
   </body>
