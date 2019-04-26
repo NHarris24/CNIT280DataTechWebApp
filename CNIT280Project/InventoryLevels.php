@@ -11,6 +11,16 @@
   </head>
 
   <body>
-<
+<?php
+$sql = "SELECT * FROM inventory;";
+$result = mysqli_query($conn, $sql);
+$resutlCheck = mysqli_num_rows($result);
+
+if ($resutlCheck > 0) {
+  while ($row = mysqli_fetch_assoc()) {
+    echo $row['4']."<br>"
+  }
+}
+?>
   </body>
 </html>
